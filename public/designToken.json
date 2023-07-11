@@ -418,7 +418,7 @@
         "type": "fontFamilies"
       },
       "Secondary": {
-        "value": "Roboto",
+        "value": "Inter",
         "type": "fontFamilies"
       }
     },
@@ -1907,16 +1907,20 @@
     }
   },
   "component/button": {
-    "c-button-padding": {
-      "large": {
+    "c-button-spacing": {
+      "paddingLarge": {
         "value": "{dimension.constant.rem}",
         "type": "spacing"
       },
-      "medium": {
+      "paddingMedium": {
         "value": "{spacing.sm} {spacing.lg}",
         "type": "spacing"
       },
       "small": {
+        "value": "{spacing.sm}",
+        "type": "spacing"
+      },
+      "icon": {
         "value": "{spacing.sm}",
         "type": "spacing"
       }
@@ -1987,7 +1991,7 @@
         }
       }
     },
-    "c-button-radius": {
+    "c-button": {
       "radius": {
         "value": "{borderRadius.default}",
         "type": "borderRadius"
