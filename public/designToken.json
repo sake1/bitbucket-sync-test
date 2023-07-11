@@ -418,7 +418,7 @@
         "type": "fontFamilies"
       },
       "Secondary": {
-        "value": "Inter",
+        "value": "Roboto",
         "type": "fontFamilies"
       }
     },
