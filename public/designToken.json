@@ -757,7 +757,7 @@
         "lineHeight": "{lineHeight.body.default}",
         "textCase": "{textCase.none}",
         "textDecoration": "{textDecoration.none}",
-        "fontSize": "{fontSize.h2}"
+        "fontSize": "{fontSize.base}"
       },
       "type": "typography"
     },
